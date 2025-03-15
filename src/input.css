@@ -5,6 +5,7 @@
 body{
     font-family: 'Inter', sans-serif;
     width: auto;
+    background-color:#DDD0C8;
 }
 
 .navbar-fixed {
@@ -28,5 +29,4 @@ body{
 .hamburger-active > span:nth-child(3){
     @apply  -rotate-45;
 }
-
 
