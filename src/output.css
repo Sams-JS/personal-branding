@@ -818,9 +818,9 @@ video {
   border-color: rgb(203 213 225 / var(--tw-border-opacity, 1));
 }
 
-.bg-krem {
+.bg-abu {
   --tw-bg-opacity: 1;
-  background-color: rgb(221 208 200 / var(--tw-bg-opacity, 1));
+  background-color: rgb(50 50 50 / var(--tw-bg-opacity, 1));
 }
 
 .bg-primary {
@@ -845,11 +845,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-abu {
-  --tw-bg-opacity: 1;
-  background-color: rgb(50 50 50 / var(--tw-bg-opacity, 1));
 }
 
 .fill-current {
@@ -1031,7 +1026,7 @@ video {
 }
 
 body{
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif,Arial, Helvetica, sans-serif;
   width: auto;
   background-color:#DDD0C8;
 }
@@ -1072,24 +1067,24 @@ body{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:border-primary:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(50 50 50 / var(--tw-border-opacity, 1));
-}
-
 .hover\:border-krem:hover {
   --tw-border-opacity: 1;
   border-color: rgb(221 208 200 / var(--tw-border-opacity, 1));
 }
 
-.hover\:bg-primary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(50 50 50 / var(--tw-bg-opacity, 1));
+.hover\:border-primary:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(50 50 50 / var(--tw-border-opacity, 1));
 }
 
 .hover\:bg-krem:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(221 208 200 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(50 50 50 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-white:hover {
